@@ -1,0 +1,39 @@
+  <html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="hanoi.css">
+  <script src="jquery-1.9.1.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+  <script src="hanoiUI.js"></script>
+  <script src="hanoi.js"></script>
+</head>
+
+<body>
+
+
+
+
+
+
+  <div class='container'>
+    <div class='tower' data-tower='0'>
+
+    </div>
+    <div class='tower' data-tower='1'>
+
+    </div>
+    <div class='tower' data-tower='2'>
+
+    </div>
+  </div>
+
+  <script>
+    $(function () {
+      var towerCount = parseInt(prompt("How many towers?"), 10);
+      var game = new Hanoi.Game(towerCount);
+      var ui = new Hanoi.UI(game);
+      ui.start();
+    })
+  </script>
+</body>
+
+</html>

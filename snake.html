@@ -1,0 +1,20 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="snake.css">
+  <script src="jquery-1.9.1.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+  <script src="snakeUI.js"></script>
+  <script src="snake.js"></script>
+  <script src="keymaster.js"></script>
+</head>
+<body>
+    <div class="container"></div>
+
+
+    <script>
+      var board = new Snakes.Board();
+      var game = new Snakes.SnakesUI(board);
+      game.start();
+    </script>
+</body>
+</html>

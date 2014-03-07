@@ -1,0 +1,28 @@
+.container{
+    background-color: purple;
+    width: 50%;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.tower {
+    background-color: white;
+    float: left;
+
+    width: 30%;
+    height: 150px;
+    margin: 5px;
+
+    position: relative;
+}
+
+.disc {
+
+    background-color: green;
+    position: absolute;
+
+}
+
+.clicked {
+  background-color: yellow;
+}

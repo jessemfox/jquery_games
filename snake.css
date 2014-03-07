@@ -1,0 +1,21 @@
+
+.snake {
+    height: 7px;
+    width: 7px;
+    background-color: black;
+    border: 1px solid white;
+
+}
+
+.container {
+    background-color:blue;
+    width:480;
+    height:480;
+}
+
+.food {
+  height: 7px;
+  width: 7px;
+  background-color: red;
+  border: 1px solid red;
+}
